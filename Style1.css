@@ -1,0 +1,89 @@
+
+* {
+box-sizing: border-box;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+}
+@media screen and (max-width:
+700px) {
+.row, .navArea {
+flex-direction: column;
+}
+}
+
+
+body {
+	background-color:#ffe6e9;
+	font-family: 'Play', sans-serif;	
+}
+
+
+
+
+
+.headerArea {
+flex:100%;
+padding:30px;
+background-color:#ff808e;
+color:white;
+text-align:center;
+font-family: 'Castoro Titling', cursive;
+font-size: x-large;
+}
+
+.IntroArea {
+text-decoration:none;
+flex:100%;
+padding:15px;
+background-color:#ffb3bb;
+text-align:center;
+}
+
+
+
+.navArea {
+text-decoration:none;
+flex:100%;
+padding:15px;
+background-color:#d279a6;
+text-align:center;
+font-family: 'Play', sans-serif;
+}
+
+
+
+
+.navArea a {
+text-decoration:none;
+font-weight:bolder;
+font-variant:small-caps;
+color: black;
+padding:15px 25px;
+}
+
+.navArea a:hover {
+background-color: #e6f2ff;
+}
+
+.mainArea {
+flex:70%;
+padding:10px;
+}
+
+.asideArea {
+flex:30%;
+padding:10px;
+background-color:#ffccd2;
+}
+
+
+.footerArea {
+flex:100%;
+background-color:#ff808e;
+color:white;
+padding:10px;
+font-size:small;
+text-align:center;
+}

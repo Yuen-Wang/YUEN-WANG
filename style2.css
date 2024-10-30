@@ -1,0 +1,104 @@
+* {
+box-sizing: border-box;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+}
+@media screen and (max-width:
+700px) {
+.row, .navArea {
+flex-direction: column;
+}
+}
+
+
+body {
+	background-color:#ffe6cc;
+	font-family: 'Play', sans-serif;	
+}
+
+
+.definition {
+float:right;
+width:30%;
+font-size:smaller;
+background-color:#ffd9b3;
+color:black;
+border: dashed;
+border-color:#ffb366;
+border-radius: 1em;
+padding:1em;
+margin:2em 2em;
+line-height: 1.4;
+margin-top:20px;
+}
+
+
+.headerArea {
+flex:100%;
+padding:30px;
+background-color:#ff8c1a;
+color:white;
+text-align:center;
+font-family: 'Castoro Titling', cursive;
+font-size: x-large;
+}
+
+.IntroArea {
+text-decoration:none;
+flex:100%;
+padding:20px;
+background-color:#ffb366;
+text-align:center;
+}
+
+
+
+.navArea {
+text-decoration:none;
+flex:100%;
+padding:15px;
+background-color:#ff884d;
+text-align:center;
+font-family: 'Play', sans-serif;
+}
+
+.navArea a {
+text-decoration:none;
+font-weight:bolder;
+font-variant:small-caps;
+color: black;
+padding:15px 25px;
+}
+
+.navArea a:hover {
+background-color:#e6f2ff;
+}
+
+
+
+.mainArea {
+flex:70%;
+padding:20px;
+text-align:justify;
+line-height:1.8;
+
+}
+
+.asideArea {
+flex:30%;
+padding:10px;
+background-color:#ffd9b3;
+line-height:1.4;
+}
+
+
+.footerArea {
+flex:100%;
+background-color:#ff8c1a;
+color:black;
+padding:10px;
+font-size:small;
+text-align:center;
+}
